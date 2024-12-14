@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOY_PATH=/home/harmonizecomm/public_html
+    - export DEPLOY_PATH=/home/hmrcomm/public_html
     - /bin/cp -r public/* $DEPLOY_PATH
