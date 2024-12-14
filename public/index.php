@@ -11,6 +11,4 @@ echo $pagina->index();
 $outra = new outracoisa();
 echo $outra->mostrar();
 
-// echo $GLOBALS['x'];
-
 echo geraNumero();
