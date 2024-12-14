@@ -1,9 +1,11 @@
-<?php 
+<?php
 
-namespace app\controller;
+namespace App\Controller;
 
-class outracoisa {
-    public function mostrar() {
-        return "<h1>Outra coisa</h1>";
+class OutraCoisa
+{
+    public static function multiplicar($numero)
+    {
+        return $numero * 2;
     }
 }

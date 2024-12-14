@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'tioale2018/estudo03',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'df80932c7b6b39bfedd7033551cbf6e1416896d4',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -633,9 +633,9 @@
             'dev_requirement' => true,
         ),
         'tioale2018/estudo03' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'df80932c7b6b39bfedd7033551cbf6e1416896d4',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

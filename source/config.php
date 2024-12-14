@@ -1,5 +1,4 @@
 <?php
+session_start();
 
-function geraNumero() {
-    return rand(1, 100);
-}
+// define('BASE_URL', 'http://localhost/projeto/public');
