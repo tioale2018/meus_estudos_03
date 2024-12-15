@@ -29,6 +29,6 @@ $csrf_token = $_SESSION['csrf_token'];
     <div id="resultado" style="margin-top: 20px; color: blue;">O resultado aparecerá aqui.</div>
 
     <script src="./js/funcoes.js?v=<?= filemtime(__DIR__ . '/./js/funcoes.js') ?>"></script>
-    <script src="./bootstrap/js/bootstrap.bundle.min.css"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
