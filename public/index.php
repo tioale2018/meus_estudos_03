@@ -16,8 +16,7 @@ $csrf_token = $_SESSION['csrf_token'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cálculo Assíncrono</title>
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
-    
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" /> 
 </head>
 <body>
     <h1>Cálculo Assíncrono aqui</h1>

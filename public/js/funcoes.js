@@ -49,8 +49,6 @@ document.querySelector('#multiplicar').addEventListener('click', function(event)
     calcular('multiplicar');
 });
 
-
-
 /*
 function calcular(acao) {
     const numero = document.getElementById('numero').value;

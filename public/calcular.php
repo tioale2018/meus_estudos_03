@@ -1,12 +1,10 @@
 <?php
-
 require_once '../vendor/autoload.php';
 
 use App\Controller\Controlador;
 use App\Controller\OutraCoisa;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
-
 
 // Logger para erros
 $log = new Logger('erros');
@@ -18,7 +16,6 @@ if (!isset($_POST['csrf_token'], $_SESSION['csrf_token']) || $_POST['csrf_token'
     echo 'Falha de validação CSRF.';
     exit;
 }
-
 
 if (!isset($_POST['action'], $_POST['numero'])) {
     http_response_code(400); // Bad Request

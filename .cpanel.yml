@@ -2,3 +2,4 @@ deployment:
   tasks:
     - export DEPLOY_PATH=/home/harmoniamr/public_html
     - /bin/cp -r public/* $DEPLOY_PATH
+    
