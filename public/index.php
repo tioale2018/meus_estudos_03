@@ -20,7 +20,7 @@ $csrf_token = $_SESSION['csrf_token'];
     
 </head>
 <body>
-    <h1>Cálculo Assíncrono</h1>
+    <h1>Cálculo Assíncrono aqui</h1>
     <label for="numero">Digite um número:</label>
     <input type="text" id="numero">
     <input type="hidden" id="csrf_token" value="<?= htmlspecialchars($csrf_token) ?>">
